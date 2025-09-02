@@ -18,12 +18,6 @@ Respeite o trabalho criativo e as licenças de cada elemento utilizado.
 
 ---
 
-## Repositório
-
-[Acessar repositório no GitHub](https://github.com/SoldadoHumano)
-
----
-
 ## Privacidade
 
 Este site não coleta dados pessoais. Nenhuma informação fornecida será compartilhada com terceiros.
