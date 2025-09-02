@@ -1,0 +1,254 @@
+@media (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .nav-glass {
+        padding: 10px 0;
+    }
+
+    .mobile-menu-btn {
+        display: block;
+        z-index: 100;
+    }
+
+    .nav-links {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 70%;
+        height: 100vh;
+        background: rgba(15, 23, 42, 0.95);
+        backdrop-filter: blur(12px);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: right 0.3s ease;
+        z-index: 90;
+        padding: 80px 20px 20px;
+    }
+
+    .nav-links.active {
+        right: 0;
+    }
+
+    .nav-link {
+        margin: 15px 0;
+        font-size: 1.2rem;
+    }
+
+    #home {
+        padding-top: 80px;
+        padding-bottom: 40px;
+    }
+
+    .hero-content {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .text-4xl {
+        font-size: 2rem;
+    }
+
+    .text-6xl {
+        font-size: 2.5rem;
+    }
+
+    .console-text {
+        font-size: 1rem;
+    }
+
+    .animated-border {
+        width: 200px !important;
+        height: 200px !important;
+        margin: 0 auto;
+    }
+
+    .section {
+        padding: 40px 0;
+    }
+
+    .text-4xl {
+        font-size: 2rem;
+    }
+
+    #about .grid {
+        gap: 30px;
+    }
+
+    .icon-grid {
+        grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
+        gap: 0.5rem;
+    }
+
+    .setup-icon {
+        font-size: 2.5rem;
+    }
+
+    .project-card {
+        margin-bottom: 20px;
+    }
+
+    .donation-option {
+        margin-bottom: 15px;
+    }
+
+    .card-glass {
+        margin-bottom: 15px;
+        padding: 15px;
+    }
+
+    .card-glass.p-12 {
+        padding: 30px 15px;
+    }
+
+    footer .flex {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer .mb-6 {
+        margin-bottom: 20px;
+    }
+
+    .icon-grid {
+        grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    }
+
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .mobile-menu-btn {
+        display: block;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    .text-4xl {
+        font-size: 1.8rem;
+    }
+
+    .text-6xl {
+        font-size: 2rem;
+    }
+
+    .skill-pill {
+        font-size: 0.8rem;
+        padding: 6px 12px;
+    }
+
+    .hero-buttons a {
+        padding: 12px 20px;
+        font-size: 0.9rem;
+    }
+
+    .animated-border {
+        width: 150px !important;
+        height: 150px !important;
+    }
+
+    .windows8 {
+        width: 80px;
+        height: 80px;
+    }
+
+    .windows8 .wBall {
+        width: 75px;
+        height: 75px;
+    }
+
+    .windows8 .wBall .wInnerBall {
+        width: 12px;
+        height: 12px;
+    }
+
+    .loading-text {
+        font-size: 1rem;
+    }
+}
+
+.nav-links.active {
+    right: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.prevent-overflow {
+    overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+    .nav-link {
+        padding: 12px 0;
+        display: block;
+    }
+
+    input,
+    select,
+    textarea {
+        font-size: 16px;
+    }
+
+    body {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+
+    .btn,
+    button,
+    .nav-link {
+        min-height: 44px;
+        min-width: 44px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    a {
+        padding: 5px 2px;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero h2 {
+        font-size: 2rem;
+    }
+
+    .features {
+        grid-template-columns: 1fr;
+    }
+}
