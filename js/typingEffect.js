@@ -3,7 +3,8 @@ const phrases = [
     "Streamer e Criador de Conteúdo",
     "Apaixonado por Código e Desafios",
     "Apaixonado por Jogos",
-    "Sempre Aprendendo e Evoluindo"
+    "Sempre Aprendendo e Evoluindo",
+    "Entusiasta em Montagem e Manutenção de Computadores"
 ];
 
 const typingSpeed = 100;
@@ -49,4 +50,5 @@ document.addEventListener("DOMContentLoaded", () => {
     if (phrases.length) {
         setTimeout(type, delayBetweenPhrases);
     }
+
 });
